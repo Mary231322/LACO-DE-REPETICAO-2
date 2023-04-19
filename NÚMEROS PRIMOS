@@ -1,0 +1,40 @@
+Algoritmo "NUMEROS PRIMOS"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   :Faça um programa que leia um número informado pelo usuário e mostre na tela os números primos.
+// Autor(a)    : MARILIA
+// Data atual  : 19/04/2023
+Var
+// Seção de Declarações das variáveis 
+
+num, i, j: inteiro
+ primo: logico
+ 
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+        escreval (" Digite um numero inteiro: ")
+         leia (num)
+
+         Escreva("Os números primos até ", num, " são:")
+
+
+para i de 2 ate num faca
+  primo <- verdadeiro
+
+
+para j de 2 ate i-1 faça
+  se i % j = 0 entao
+   primo <- falso
+
+fimse
+fimpara
+
+se primo entao
+   escreva (i)
+
+
+  fimse
+fimpara
+
+Fimalgoritmo
